@@ -67,6 +67,6 @@ If you got everything, we can start building:
     > __cd ../examgen-api__
 8) Run the application running
     >__npm run start__
-9) The back-end will listening to locahost at your prefered port and the fron-end will be available on __http://localhost:<port>/__
+9) The back-end will listening to locahost at your prefered port and the fron-end will be available on __http://localhost:[port]/__
 
 You can now set up a reverse proxy or a direct DNS record to your machine. This is sys-admin stuff that do not requires my explaination.
