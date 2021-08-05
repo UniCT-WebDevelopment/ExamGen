@@ -1,0 +1,66 @@
+### Question All List ###
+GET  http://localhost:5000/api/question
+Authorization: capybara
+### Question Content List ###
+GET  http://localhost:5000/api/question/60fd8278b6d2cc0850b44985
+Authorization: capybara
+### Question Creation ###
+POST  http://localhost:5000/api/question/
+Authorization: capybara
+Content-Type: application/json
+
+{
+  "subject": "BackEnd5",
+  "category": "PHP8",
+  "title": "Is TypeScript beautiful?",
+  "optionalSubContent": "Be careful, there are more correct choices!",
+  "answerTypology": "multi",
+  "answers": [
+    {
+      "text": "q1"
+    },
+    {
+      "text": "q2"
+    },
+    {
+      "text": "q3"
+    },
+    {
+      "text": "q4"
+    }
+  ]
+}
+### Question Edit ###
+PUT  http://localhost:5000/api/question/60fd86cdf500e81bfced1e5e
+Authorization: capybara
+Content-Type: application/json
+
+{
+  "subject": "BackEnd2",
+  "category": "Gods",
+  "title": "Is Capybara beautiful?",
+  "optionalSubContent": "Be careful, there are more correct choices!",
+  "answerTypology": "multi",
+  "answers": [
+    {
+      "text": "Yes"
+    },
+    {
+      "text": "Yes, of course"
+    },
+    {
+      "text": "Yes, it's a divine animal"
+    },
+    {
+      "text": "Yes, yes my owner~"
+    }
+  ]
+}
+### Question Delete ###
+DELETE  http://localhost:5000/api/question/60fd8758f500e81bfced1e63
+Authorization: capybara
+###
+### All Question Delete ###
+DELETE  http://localhost:5000/api/question/all
+Authorization: capybara
+###

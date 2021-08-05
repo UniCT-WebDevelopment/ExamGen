@@ -1,0 +1,18 @@
+### Category All List ###
+GET  http://localhost:5000/api/subject/BackEnd5/category
+Authorization: capybara
+### Category Content List ###
+GET  http://localhost:5000/api/subject/BackDev/category/PHP
+Authorization: capybara
+### Category Update Name ###
+PUT  http://localhost:5000/api/subject/BackEnd5/category/PHP
+Authorization: capybara
+Content-Type: application/json
+
+{
+  "name": "JS"
+}
+### Category Delete ###
+DELETE  http://localhost:5000/api/subject/BackDev/category/JS
+Authorization: capybara
+###

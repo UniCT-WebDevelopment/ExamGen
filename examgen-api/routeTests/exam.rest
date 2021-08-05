@@ -1,0 +1,34 @@
+## GET all EXAMS
+GET  http://localhost:5000/api/exam/history
+Authorization: capybara
+#############
+
+## GET a specific exam
+GET  http://localhost:5000/api/exam/60ef232f9240b81c5889d685
+Authorization: capybara
+#############
+
+
+POST  http://localhost:5000/api/exam/generate
+Authorization: capybara
+Content-Type: application/json
+
+{
+  "subject": "BackEnd",
+  "title": "Compito 1",
+  "questions": [
+    {
+      "category": "PHP",
+      "overallQta": "2",
+      "multiQta": "0"
+    },
+    {
+      "category": "JS",
+      "overallQta": "2",
+      "multiQta": "0"
+    }
+  ]
+}
+####################
+DELETE  http://localhost:5000/api/exam/all
+Authorization: capybara

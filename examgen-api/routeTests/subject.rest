@@ -1,0 +1,18 @@
+### Subject All List ###
+GET http://localhost:5000/api/subject
+Authorization: capybara
+### Category Content List ###
+GET  http://localhost:5000/api/subject/FrontDev
+Authorization: capybara
+### Subject Update Name ###
+PUT  http://localhost:5000/api/subject/BackEnd5
+Authorization: capybara
+Content-Type: application/json
+
+{
+  "name": "BackEnd"
+}
+### Subject Delete ###
+DELETE  http://localhost:5000/api/subject/BackDev
+Authorization: capybara
+###
