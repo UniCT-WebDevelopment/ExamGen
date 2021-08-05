@@ -8,8 +8,8 @@ Select a specific sub-repo to vitis :)
 
 | Repo                           | Link                                                                       |
 | ------------------------------ | -------------------------------------------------------------------------- |
-| :eyeglasses: Application       | [Link](https://github.com/LightDestory/ExamGen/tree/master/examgen-client) |
-| :globe_with_meridians:  Server | [Link](https://github.com/LightDestory/ExamGen/tree/master/examgen-api)    |
+| :eyeglasses: Application       | [Link](https://github.com/UniCT-WebDevelopment/ExamGen/tree/main/examgen-client) |
+| :globe_with_meridians:  Server | [Link](https://github.com/UniCT-WebDevelopment/ExamGen/tree/main/examgen-api)    |
 
 ## :large_orange_diamond: License :copyright:
 
